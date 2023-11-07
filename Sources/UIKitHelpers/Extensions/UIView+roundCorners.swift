@@ -71,7 +71,7 @@ extension UIBezierPath {
 }
 
 extension UIView {
-  func roundCorners(topLeft: CGFloat = 0, topRight: CGFloat = 0, bottomLeft: CGFloat = 0, bottomRight: CGFloat = 0) {
+  public func roundCorners(topLeft: CGFloat = 0, topRight: CGFloat = 0, bottomLeft: CGFloat = 0, bottomRight: CGFloat = 0) {
     let topLeftRadius = CGSize(width: topLeft, height: topLeft)
     let topRightRadius = CGSize(width: topRight, height: topRight)
     let bottomLeftRadius = CGSize(width: bottomLeft, height: bottomLeft)

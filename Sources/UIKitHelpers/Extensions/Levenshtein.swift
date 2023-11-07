@@ -14,7 +14,7 @@ extension String {
 }
 
 extension String {
-  func levenshtein(_ other: String) -> Int {
+  public func levenshtein(_ other: String) -> Int {
     let sCount = self.count
     let oCount = other.count
     guard sCount != 0 else {
