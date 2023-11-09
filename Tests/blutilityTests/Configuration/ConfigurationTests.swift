@@ -5,7 +5,7 @@
 //  Created by Daniel Vela on 4/9/23.
 //
 
-@testable import UIKitHelpers
+@testable import blutility
 import XCTest
 
 final class ConfigurationTests: XCTestCase {

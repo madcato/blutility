@@ -1,11 +1,11 @@
 import XCTest
-@testable import UIKitHelpers
+@testable import blutility
 
-final class UIKitHelpersTests: XCTestCase {
+final class BLUtilityTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(UIKitHelpers().text, "Hello, World!")
+        XCTAssertEqual(BLUtility().text, "Hello, World!")
     }
 }
