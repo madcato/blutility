@@ -1,5 +1,5 @@
 import XCTest
-@testable import blutility
+@testable import BLUtility
 
 final class BLUtilityTests: XCTestCase {
     func testExample() throws {
