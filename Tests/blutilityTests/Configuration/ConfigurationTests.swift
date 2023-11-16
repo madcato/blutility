@@ -5,7 +5,7 @@
 //  Created by Daniel Vela on 4/9/23.
 //
 
-@testable import blutility
+@testable import BLUtility
 import XCTest
 
 final class ConfigurationTests: XCTestCase {
